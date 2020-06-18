@@ -2,7 +2,10 @@
 title: "A brief intro to web scraping"
 author: "Ha-Pu"
 date: "17 01 2020"
-output: html_document
+output:
+  #html_document
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include = FALSE}

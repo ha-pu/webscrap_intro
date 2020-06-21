@@ -661,6 +661,8 @@ print(len_a == len_b)
 Legal aspects
 =============
 
+Not all website allow web scraping, either in their usage terms or through their *robots.txt* file. See [this blog entry](https://ryo-n7.github.io/2020-05-14-webscrape-soccer-data-with-R/) for further considerations.
+
 <https://www.marketwatch.com/support/disclaimer.asp>  
 3.4 No Modification of Content. You agree not to rearrange or modify the
 Content. You agree not to create abstracts from, scrape or display

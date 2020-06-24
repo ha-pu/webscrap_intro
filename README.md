@@ -320,7 +320,7 @@ before the actual scraping starts. This provides access to the
 ``` r
 # open server session and open browser client
 rD <- rsDriver(browser = c("chrome"), chromever = "latest", verbose = FALSE)
-# run binman::list_versions("chromedriver")
+# binman::list_versions("chromedriver")
 # rD <- rsDriver(browser = c("chrome"), chromever = "79.0.3945.36", verbose = FALSE)
 remDr <- rD$client
 

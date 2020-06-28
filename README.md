@@ -27,14 +27,14 @@ Fundamental considerations
     -   [Do I need web scraping?](#do-i-need-web-scraping)
     -   [Is there a package / library?](#is-there-a-package--library)
 -   What data do I want?
-    -   [Is data stored in files?](#is-data-stored-in-files?)
+    -   [Is data stored in files?](#is-data-stored-in-files)
     -   [How is data structured? (e.g. text, tables, attributes)](#how-is-data-structured)
     -   [Is interaction needed? (e.g. event-based code, forms)](#is-interaction-needed)
 -   How do I get data?
     -   [How do I access data? (i.e. access website A to get to
-        website B)](#how-do-i-access-data?)
+        website B)](#how-do-i-access-data)
     -   [How do I identify data? (e.g. xpath, css-selector)](#how-do-i-identify-data)
-    -   [Is my identifier unique?](#is-my-identifier-unique)
+    -   [Is my identifier unique?](#is-my-identifier-unqiue)
     -   [Is my identifier stable?](#is-my-identifier-stable)
  -  [Legal aspects](#legal-aspects)
  -  [Additional resources](#additional-resources)

@@ -24,24 +24,28 @@ Fundamental considerations
 ==========================
 
 -   Where do I get data
-    -   Do I need web scraping?
-    -   Is there a package / library?
+    -   [Do I need web scraping?](#do-i-need-web-scraping)
+    -   [Is there a package / library?](#is-there-a-package--library)
 -   What data do I want?
-    -   Is data stored in files?
-    -   How is data structured? (e.g. text, tables, attributes)
-    -   Is interaction needed? (e.g. event-based code, forms)
+    -   [Is data stored in files?](#is-data-stored-in-files)
+    -   [How is data structured? (e.g. text, tables, attributes)](#how-is-data-structured)
+    -   [Is interaction needed? (e.g. event-based code, forms)](#is-interaction-needed)
 -   How do I get data?
-    -   How do I access data? (i.e. access website A to get to
-        website B)
-    -   How do I identify data? (e.g. xpath, css-selector)
-    -   Is my identifier unique?
-    -   Is my identifier stable?
+    -   [How do I access data? (i.e. access website A to get to
+        website B)](#how-do-i-access-data)
+    -   [How do I identify data? (e.g. xpath, css-selector)](#how-do-i-identify-data)
+    -   [Is my identifier unique?](#is-my-identifier-unqiue)
+    -   [Is my identifier stable?](#is-my-identifier-stable)
+ -  [Legal aspects](#legal-aspects)
+ -  [Additional resources](#additional-resources)
 
 Where do I get data?
 ====================
 
 Do I need web scraping?
 -----------------------
+
+[Get to top](#fundamental-considerations)
 
 This comes down to the question “Is it worth the effort?”. Web scraping
 is most efficient when…
@@ -55,6 +59,8 @@ is most efficient when…
 
 Is there a package / library?
 -----------------------------
+
+[Get to top](#fundamental-considerations)
 
 In some cases there are packages / libraries available that make web
 scaping unnecessary:
@@ -81,9 +87,11 @@ What data do I want?
 Is data stored in files?
 ------------------------
 
+[Get to top](#fundamental-considerations)
+
 ------------------------------------------------------------------------
 
-**saving stored files**  
+**saving stored files**
 Downloading and saving a file from a
 [website](https://www.wu.ac.at/iib/team).
 
@@ -125,6 +133,8 @@ url %>%
 
 How is data structured?
 -----------------------
+
+[Get to top](#fundamental-considerations)
 
 Data on a [website](https://www.geschichtewiki.wien.gv.at/Gasometer) can
 be categorized into three broard groups: text, tables, and attributes.
@@ -293,6 +303,8 @@ for i in web_data:
 Is interaction needed?
 ----------------------
 
+[Get to top](#fundamental-considerations)
+
 ------------------------------------------------------------------------
 
 **loading data**  
@@ -377,6 +389,8 @@ How do I get data?
 How do I access data?
 ---------------------
 
+[Get to top](#fundamental-considerations)
+
 If data is saved on sub-pages it might be necessary to scrap data
 (e.g. URLs) from [website
 A](https://de.wikipedia.org/wiki/Kategorie:Kaiser_(Rom)) and use these
@@ -406,6 +420,8 @@ str_c("https://de.wikipedia.org", url_b) %>%
 
 How do I identify data?
 -----------------------
+
+[Get to top](#fundamental-considerations)
 
 For web scraping, a clear identification of the data is necessary. Data
 on a website can by identfied using its URL (e.g. for files linked to
@@ -485,6 +501,8 @@ url %>%
 Is my identifier unqiue?
 ------------------------
 
+[Get to top](#fundamental-considerations)
+
 Defining a selector that is not sufficiently unambiguous might lead to
 undesirable result -\> too many / unwanted results.
 
@@ -548,6 +566,8 @@ print(len_a == len_b)
 
 Is my identifier stable?
 ------------------------
+
+[Get to top](#fundamental-considerations)
 
 When looping across a list of websites it might happen that an
 identifier that worked on *page A* does not work anymore on *page B*.
@@ -661,6 +681,8 @@ print(len_a == len_b)
 Legal aspects
 =============
 
+[Get to top](#fundamental-considerations)
+
 Not all website allow web scraping, either in their usage terms or through their *robots.txt* file. See [this blog entry](https://ryo-n7.github.io/2020-05-14-webscrape-soccer-data-with-R/) for further considerations.
 
 <https://www.marketwatch.com/support/disclaimer.asp>  
@@ -684,6 +706,8 @@ to crawl any pages on www.example.com, including the homepage.
 
 Additional resources
 ====================
+
+[Get to top](#fundamental-considerations)
 
 [Beckman, M., Guerrier, S., Lee, J., Molinari, R., Orso, S., &
 Rudnytskyi, I. (2019). Web scraping in R. In An Introduction to
